@@ -1,0 +1,15 @@
+v1
+1.CRUD records
+2.Fuzzy query the record by title
+
+details:
+record entity
+	title string
+	content string
+	remark string
+
+v2
+1.add tags for records
+2.search record via tags
+3.add multi-users to the sys
+4.add secure check
