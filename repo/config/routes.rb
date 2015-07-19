@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :remove_prefix_to_records
+  resources :add_prefix_to_records
   resources :record1s
   resources :records
   # The priority is based upon order of creation: first created -> highest priority.

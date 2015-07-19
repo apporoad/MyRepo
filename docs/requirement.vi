@@ -4,6 +4,7 @@ v1
 
 details:
 record entity
+	prefix string
 	title string
 	content string
 	remark string

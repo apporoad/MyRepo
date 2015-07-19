@@ -11,7 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150719024601) do
+ActiveRecord::Schema.define(version: 20150719050854) do
+
+  create_table "add_prefix_to_records", force: :cascade do |t|
+    t.string   "Prefix"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "record1s", force: :cascade do |t|
     t.string   "title"
@@ -27,6 +33,7 @@ ActiveRecord::Schema.define(version: 20150719024601) do
     t.string   "remark"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "prefix"
   end
 
 end
