@@ -1,6 +1,7 @@
 v1
 1.CRUD records
 2.Fuzzy query the record by title
+3.record the read count every open
 
 details:
 record entity
@@ -8,6 +9,7 @@ record entity
 	title string
 	content string
 	remark string
+	readCount int
 
 v2
 1.add tags for records
